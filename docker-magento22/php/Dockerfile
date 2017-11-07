@@ -1,4 +1,4 @@
-FROM php:5.6-fpm
+FROM php:7.1-fpm
 
 RUN useradd -u 1000 local -d "/home/local"
 
@@ -48,5 +48,5 @@ COPY xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
 
 COPY magento.ini /usr/local/etc/php/conf.d/90-magento.ini
 # to include ioncube support, uncomment the next two lines
-#COPY ioncube/ioncube_loader_lin_5.6.so /usr/lib/php5/20131226/ioncube_loader_lin_5.6.so
+#COPY ioncube/ioncube_loader_lin_7.1.so /usr/lib/php5/20131226/ioncube_loader_lin_7.1.so
 #COPY ioncube.ini /usr/local/etc/php/php.ini
