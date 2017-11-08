@@ -26,7 +26,7 @@ htdocs/lib/internal/flex/varien/.project
 htdocs/lib/internal/flex/varien/.settings
 htdocs/node_modules
 htdocs/.grunt
-htdocs/generated/code
+htdocs/generated
 
 htdocs/pub/media/*.*
 !htdocs/pub/media/.htaccess
