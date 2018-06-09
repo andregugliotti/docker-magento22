@@ -1,10 +1,32 @@
+# PHP Storm
 .idea/
-!docker-magento22/databases/.gitkeep
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# OS
+.DS_Store
+
+# Docker
 docker-magento22/databases/*
+!docker-magento22/databases/.gitkeep
+docker-magento22/logs/nginx/*
+docker-magento22/logs/php/*
 !docker-magento22/logs/nginx/.gitkeep
 !docker-magento22/logs/php/.gitkeep
-docker-magento22/logs/*
 
+# Magento 2
 htdocs/.buildpath
 htdocs/.cache
 htdocs/.metadata
